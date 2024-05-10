@@ -1,4 +1,4 @@
-alert('comiu o cu de quem tá lendo');
+alert('Vai tomando vagabunda');
 let nomeUsuario = "";
 let texto = document.querySelector('#texto');
 
