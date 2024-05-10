@@ -1,15 +1,15 @@
-alert('salve');
-let nomeUsuario = prompt('como você está?');
-let anterior = document.querySelector('#sexo');
-
-anterior.textContent = nomeUsuario; 
+alert('comiu o cu de quem tá lendo');
+let nomeUsuario = "";
+let texto = document.querySelector('#texto');
 
 while(nomeUsuario == ""){
-    nomeUsuario = prompt('como você está?')
-};
-
-if(nomeUsuario ==null){
-  anterior.textContent = 'usuário'
-} else{
-    anterior.textContent = nomeUsuario;
+    nomeUsuario = prompt('Qual o tamanho da peça?');
 }
+
+if (nomeUsuario == null){
+    texto.textContent = 'Usuário';
+} else{
+    texto.textContent = nomeUsuario;
+}
+
+
