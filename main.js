@@ -3,7 +3,7 @@ let nomeUsuario = "";
 let texto = document.querySelector('#texto');
 
 while(nomeUsuario == ""){
-    nomeUsuario = prompt('Qual o tamanho da peça?');
+    nomeUsuario = prompt('Volta pra mim Nauan');
 }
 
 if (nomeUsuario == null){
